@@ -60,9 +60,11 @@
             <div class="container">
                 <h1 class="button-title"> Effective Solutions
                     for Your Business</h1>
-                <button type="button" class="button-text">Order Service</button>
+
+                <button type="submit" class="button-text">Order Service</button>
             </div>
         </section>
+
         <!-- <section #2 class="feature"> -->
         <section class="section-feature">
             <div class="container">
@@ -387,6 +389,9 @@
             </div>
         </section>
     </main>
+
+
+
     <!-- <footer class="footer"> -->
     <footer class="footer">
         <div class="container footer-container">
@@ -434,8 +439,37 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-form-container">
+                <p class="footer-form-text">Subscribe</p>
+                <form class="footer-form" type="text" name="e-mail">
+                    <input class="footer-form-input" type="text" name="e-mail" placeholder="e-mail" />
+                    <button type="submit" class="footer-form-button">Subscribe
+                        <svg class="footer-icons-link-svg" width="24" height="24">
+                            <use href="./images/icons2.svg#icon-icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
+
+    <!-- modal -->
+    <div class="modal-overlay">
+        <div class="modal">
+            <svg class="modal-icons-Vector">
+                <use href="./images/icons2.svg#icon-Vector-3" width="8" height="8"></use>
+            </svg>
+            <p class="modal-text">Leave your contacts and we will call you back</p>
+            <form class="form" name="issue_report_form" autocomplete="off">
+                <div class="modal-form-container">
+
+
+                </div>
+            </form>
+
+            <button type="submit" class="modal-button-text">Send</button>
+        </div>
+    </div>
 </body>
 
 </html>

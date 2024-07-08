@@ -594,15 +594,17 @@ img {
 
 
 .footer-form-input {
-    background-color: #2e2f42;
+    background-color: transparent;
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
     color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    margin-right: 24px;
     padding: 8px 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
 
 
 }
@@ -622,7 +624,7 @@ img {
     align-items: center;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     cursor: pointer;
@@ -634,6 +636,7 @@ img {
     color: #fff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     gap: 16px;
+
 }
 
 
@@ -654,10 +657,10 @@ img {
     pointer-events: none;
 }
 
-/* .modal-overlay.is-open {
+.modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
-} */
+}
 
 .modal {
     position: absolute;
@@ -852,17 +855,4 @@ img {
     cursor: pointer;
     min-width: 169px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.backdrop {
-    /* any styles */
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-
-.backdrop.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
 }

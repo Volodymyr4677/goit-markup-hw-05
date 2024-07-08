@@ -456,18 +456,61 @@
     <!-- modal -->
     <div class="modal-overlay">
         <div class="modal">
-            <svg class="modal-icons-Vector">
-                <use href="./images/icons2.svg#icon-Vector-3" width="8" height="8"></use>
-            </svg>
+            <button type="button" class="modal-button-text"><svg class="modal-icons-svg" width="8" height="8">
+                    <use href="./images/icons2.svg#icon-Vector-3"></use>
+                </svg></button>
             <p class="modal-text">Leave your contacts and we will call you back</p>
-            <form class="form" name="issue_report_form" autocomplete="off">
+            <form class="form" name="issue_report_form" autocomplete="on">
                 <div class="modal-form-container">
-
-
+                    <label class="form-label" for="user-name">name</label>
+                    <div class="input-icons">
+                        <input id="user-name" name="user-name" type="text" class="input-name" />
+                        <svg class="input-svg" width="14" height="24">
+                            <use href="./images/icons2.svg#icon-Vector"></use>
+                        </svg>
+                    </div>
                 </div>
+
+                <div class="modal-form-container">
+                    <label class="form-label" for="user-name">Phone</label>
+                    <div class="input-icons">
+                        <input id="user-name" name="user-name" type="text" class="input-name" />
+                        <svg class="input-svg" width="14" height="24">
+                            <use href="./images/icons2.svg#icon-Vector-1"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-form-container">
+                    <label class="form-label" for="user-name">Email</label>
+                    <div class="input-icons">
+                        <input id="user-name" name="user-name" type="text" class="input-name" />
+                        <svg class="input-svg" width="14" height="24">
+                            <use href="./images/icons2.svg#icon-Vector-2"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="input-comment">
+                    <label for="user-comment" class="form-label">Comment</label>
+                    <textarea id="user-comment" name="user-comment" class="input-textarea"></textarea>
+                </div>
+                <div class="checkbox-container">
+                    <input class="visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy" />
+                    <label class="checkbox-label" for="user-privacy"><span class="checkbox-span">
+
+                            <svg class="checkbox-svg" width="10" height="8">
+                                <use href="./images/#icon-Checkbox"></use>
+                            </svg>
+
+                        </span>
+                        I accept the terms and conditions of the
+
+                        <a class="checkbox-link" href="Privacy Policy">Privacy Policy</a>
+                        <button type="submit" class="form-button">Send</button>
+                    </label>
+
             </form>
 
-            <button type="submit" class="modal-button-text">Send</button>
+
         </div>
     </div>
 </body>

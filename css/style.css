@@ -589,7 +589,9 @@ img {
 .footer-form {
     display: flex;
     align-items: center;
+    gap: 24px;
 }
+
 
 .footer-form-input {
     background-color: #2e2f42;
@@ -648,7 +650,14 @@ img {
     align-items: center;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    pointer-events: none;
 }
+
+/* .modal-overlay.is-open {
+    opacity: 1;
+    pointer-events: auto;
+} */
 
 .modal {
     position: absolute;

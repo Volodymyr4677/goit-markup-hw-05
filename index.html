@@ -441,8 +441,10 @@
             </div>
             <div class="footer-form-container">
                 <p class="footer-form-text">Subscribe</p>
-                <form class="footer-form" type="text" name="e-mail">
-                    <input class="footer-form-input" type="text" name="e-mail" placeholder="e-mail" />
+                <form class="footer-form" type="email" name="e-mail">
+                    <label class="footer-label">
+                        <input class="footer-form-input" type="text" name="e-mail" placeholder="e-mail" />
+                    </label>
                     <button type="submit" class="footer-form-button">Subscribe
                         <svg class="footer-icons-link-svg" width="24" height="24">
                             <use href="./images/icons2.svg#icon-icon-send"></use>
@@ -454,7 +456,7 @@
     </footer>
 
     <!-- modal -->
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
         <div class="modal">
             <button type="button" class="modal-button-text"><svg class="modal-icons-svg" width="8" height="8">
                     <use href="./images/icons2.svg#icon-Vector-3"></use>
@@ -462,10 +464,10 @@
             <p class="modal-text">Leave your contacts and we will call you back</p>
             <form class="form" name="issue_report_form" autocomplete="on">
                 <div class="modal-form-container">
-                    <label class="form-label" for="user-name">name</label>
+                    <label class="form-label" for="user-name">Name</label>
                     <div class="input-icons">
                         <input id="user-name" name="user-name" type="text" class="input-name" />
-                        <svg class="input-svg" width="14" height="24">
+                        <svg class="input-svg" width="18" height="24">
                             <use href="./images/icons2.svg#icon-Vector"></use>
                         </svg>
                     </div>
@@ -475,7 +477,7 @@
                     <label class="form-label" for="user-name">Phone</label>
                     <div class="input-icons">
                         <input id="user-name" name="user-name" type="text" class="input-name" />
-                        <svg class="input-svg" width="14" height="24">
+                        <svg class="input-svg" width="18" height="24">
                             <use href="./images/icons2.svg#icon-Vector-1"></use>
                         </svg>
                     </div>
@@ -484,20 +486,22 @@
                     <label class="form-label" for="user-name">Email</label>
                     <div class="input-icons">
                         <input id="user-name" name="user-name" type="text" class="input-name" />
-                        <svg class="input-svg" width="14" height="24">
+                        <svg class="input-svg" width="18" height="24">
                             <use href="./images/icons2.svg#icon-Vector-2"></use>
                         </svg>
                     </div>
                 </div>
                 <div class="input-comment">
-                    <label for="user-comment" class="form-label">Comment</label>
-                    <textarea id="user-comment" name="user-comment" class="input-textarea"></textarea>
+                    <label class="form-label" for="user-name">
+                        Comment
+                        <textarea class="textarea-input" name="Comment" rows="5" placeholder="Text input"></textarea>
+                    </label>
                 </div>
                 <div class="checkbox-container">
                     <input class="visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy" />
                     <label class="checkbox-label" for="user-privacy"><span class="checkbox-span">
 
-                            <svg class="checkbox-svg" width="10" height="8">
+                            <svg type="radio" class="checkbox-svg" width="10" height="8">
                                 <use href="./images/#icon-Checkbox"></use>
                             </svg>
 
@@ -505,8 +509,9 @@
                         I accept the terms and conditions of the
 
                         <a class="checkbox-link" href="Privacy Policy">Privacy Policy</a>
-                        <button type="submit" class="form-button">Send</button>
+
                     </label>
+                    <button type="submit" class="form-button">Send</button>
 
             </form>
 

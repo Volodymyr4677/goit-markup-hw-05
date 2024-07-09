@@ -814,6 +814,13 @@ img {
 
 }
 
+.input [type="checkbox"]:focus {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+
+}
+
 .checkbox-label {
     font-size: 12px;
     line-height: 1.17;
@@ -836,11 +843,7 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.checkbox-span:focus {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
+
 
 .checkbox-link {
     color: #4d5ae5;

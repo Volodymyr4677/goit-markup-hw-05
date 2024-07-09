@@ -780,8 +780,8 @@ img {
 
 }
 
-.input-name:focus .input-svg {
-    fill: #4d5ae5;
+.input-name:focus-within+.input-svg {
+    fill: #4D5AE5;
 }
 
 .textarea-container {
@@ -836,7 +836,7 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+
 
 }
 

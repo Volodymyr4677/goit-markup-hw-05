@@ -838,7 +838,7 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-input:checked+label>span {
+input:checked>span {
     background-color: #404bbf;
 
     fill: #F4F4FD;

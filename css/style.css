@@ -822,14 +822,8 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    border: 1px solid rgba(46, 47, 66, 0.4);
 
-
-}
-
-.checkbox-span {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
 
 }
 

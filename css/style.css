@@ -780,7 +780,7 @@ img {
 
 }
 
-.input-svg:focus {
+.input-name:focus>.input-svg {
     fill: #4d5ae5;
 }
 
@@ -838,9 +838,8 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-input:checked>span {
+input:checked+label>span {
     background-color: #404bbf;
-
     fill: #F4F4FD;
     border: none;
 }

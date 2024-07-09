@@ -712,7 +712,7 @@ img {
 }
 
 .modal-button-exit:hover .modal-icons-svg,
-.modal-button-exit:hover .modal-icons-svg {
+.modal-button-exit:focus .modal-icons-svg {
     fill: #ffffff;
 }
 
@@ -814,12 +814,6 @@ img {
 
 }
 
-.input [type="checkbox"]:focus {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-
-}
 
 .checkbox-label {
     font-size: 12px;
